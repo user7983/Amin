@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hnav>a>h1{
+    font-weight: 700;
+    color: #d53df0;
+}
+
+.hnav{
+    background-color: rgb(39, 39, 39);
+    color: rgb(196, 195, 195);
+    width: 100%;
+    padding: 1% 2% 1% 3%;
+}
+
+.hnav>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 60px 0 20px;
+    padding: 15px 0;
+}
+
+.hnav>ul>li>a{
+    color: rgb(196, 195, 195);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+}
+
+.dropdown>li{
+    background-color: rgb(39, 39, 39);
+    padding: 8px;
+}
+
+#m:hover .dropdown{
+    display: block;
+}
+
+.dropdown>li>a{
+    color: rgb(196, 195, 195);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dropdown>li:hover{
+    background-color: rgb(117, 156, 40);
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(39, 39, 39);
+    padding: 0 60px;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 100000000000;
+}
+
+footer>a{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+
+footer>a:hover{
+    color: rgb(196, 196, 196);
+}
+
+footer>a>i{
+    padding-top: 5px;
+}
+
+.seherler2:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 20px gray;
+}
+
+.fix{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.meq:hover{
+    box-shadow: 0 0 20px #b1cde5;
+    transform: scale(1.06, 1.1);
+    transition-duration: 0.1s;
+}
+
+.card, .container{
+    z-index: -1;
+}
